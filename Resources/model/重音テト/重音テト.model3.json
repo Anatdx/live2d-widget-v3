@@ -3,30 +3,46 @@
 	"FileReferences": {
 		"Moc": "重音テト.moc3",
 		"Textures": [
-			"重音テト.4096/texture_00.png",
-			"重音テト.4096/texture_01.png",
-			"重音テト.4096/texture_02.png",
-			"重音テト.4096/texture_03.png",
-			"重音テト.4096/texture_04.png"
+			"重音テト.4096/texture_00.webp",
+			"重音テト.4096/texture_01.webp",
+			"重音テト.4096/texture_02.webp",
+			"重音テト.4096/texture_03.webp",
+			"重音テト.4096/texture_04.webp"
 		],
 		"Physics": "重音テト.physics3.json",
 		"DisplayInfo": "重音テト.cdi3.json",
 		"Motions": {
 			"Idle": [
 				{
-					"File": "Motions/IDLE.motion3.json",
+					"File": "Motions/Sleep.motion3.json",
 					"FadeIn": 1000,
 					"FadeOut": 1000
 				}
 			],
 			"TapBody": [
 				{
-					"File": "Motions/Sleep.motion3.json",
+					"File": "Motions/IDLE.motion3.json",
 					"FadeIn": 200,
 					"FadeOut": 200
 				}
 			]
-		}
+		},
+		"Expressions": [
+				{ "Name": "【SV】Baguette", "File": "Expressions/【SV】Baguette.exp3.json" },
+				{ "Name": "【SV】Mic", "File": "Expressions/【SV】Mic.exp3.json" },
+				{ "Name": "【Utau】Mic", "File": "Expressions/【Utau】Mic.exp3.json" },
+				{ "Name": "Blush", "File": "Expressions/Blush.exp3.json" },
+				{ "Name": "chibi", "File": "Expressions/chibi.exp3.json" },
+				{ "Name": "Cry", "File": "Expressions/Cry.exp3.json" },
+				{ "Name": "Dark Eye", "File": "Expressions/Dark Eye.exp3.json" },
+				{ "Name": "Dark Face", "File": "Expressions/Dark Face.exp3.json" },
+				{ "Name": "Dizzy", "File": "Expressions/Dizzy.exp3.json" },
+				{ "Name": "Exp eye", "File": "Expressions/Exp eye.exp3.json" },
+				{ "Name": "Love", "File": "Expressions/Love.exp3.json" },
+				{ "Name": "Star Eye", "File": "Expressions/Star Eye.exp3.json" },
+				{ "Name": "SV Utau ALT", "File": "Expressions/SV Utau ALT.exp3.json" },
+				{ "Name": "Sweat", "File": "Expressions/Sweat.exp3.json" }
+    	]
 	},
 	"Groups": [
 		{
