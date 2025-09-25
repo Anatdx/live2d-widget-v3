@@ -35,6 +35,11 @@
 			"Id": "Param12",
 			"Value": 0,
 			"Blend": "Add"
+		},
+		{
+			"Id": "Param14",
+			"Value": 1,
+			"Blend": "Add"
 		}
 	]
 }
