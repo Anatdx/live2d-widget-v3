@@ -35,22 +35,22 @@
 		],
 		"Motions": {
 					"Idle": [
-						{ "File": "08_走路.motion3.json" },
-						{ "File": "09_渐入睡眠.motion3.json" },
-						{ "File": "12_活动身体.motion3.json" },
-						{ "File": "13_扭腰.motion3.json" },
-						{ "File": "14_点头.motion3.json" }
+						{ "File": "表情和动作/08_走路.motion3.json" },
+						{ "File": "表情和动作/09_渐入睡眠.motion3.json" },
+						{ "File": "表情和动作/12_活动身体.motion3.json" },
+						{ "File": "表情和动作/13_扭腰.motion3.json" },
+						{ "File": "表情和动作/14_点头.motion3.json" }
 					],
 					"TapBody": [
-						{ "File": "01_生气.motion3.json" },
-						{ "File": "02_高兴.motion3.json" },
-						{ "File": "03_爱情.motion3.json" },
-						{ "File": "04_开心.motion3.json" },
-						{ "File": "05_转头.motion3.json" },
-						{ "File": "06_大哭.motion3.json" },
-						{ "File": "07_点头.motion3.json" },
-						{ "File": "10_愤怒.motion3.json" },
-						{ "File": "11_装可爱.motion3.json" }
+						{ "File": "表情和动作/01_生气.motion3.json" },
+						{ "File": "表情和动作/02_高兴.motion3.json" },
+						{ "File": "表情和动作/03_爱情.motion3.json" },
+						{ "File": "表情和动作/04_开心.motion3.json" },
+						{ "File": "表情和动作/05_转头.motion3.json" },
+						{ "File": "表情和动作/06_大哭.motion3.json" },
+						{ "File": "表情和动作/07_点头.motion3.json" },
+						{ "File": "表情和动作/10_愤怒.motion3.json" },
+						{ "File": "表情和动作/11_装可爱.motion3.json" }
 					]
     	}
 	},
