@@ -21,50 +21,53 @@
 		"selector": "#waifu-tool-quit",
 		"text": ["到了要说再见的时候了吗？", "呜呜 QAQ 后会有期……", "不要抛弃我呀……", "我们，还能再见面吗……", "哼，你会后悔的！"]
 	}, {
-		"selector": ".menu-item-home a",
+		"selector": "#sidebar > nav > ul > li.nav-item.active > a",
 		"text": ["点击前往首页，想回到上一页可以使用浏览器的后退功能哦。", "点它就可以回到首页啦！", "回首页看看吧。"]
 	}, {
-		"selector": ".menu-item-about a",
+		"selector": "a[href$='/about/']",
 		"text": ["你想知道我家主人是谁吗？", "这里有一些关于我家主人的秘密哦，要不要看看呢？", "发现主人出没地点！"]
 	}, {
-		"selector": ".menu-item-tags a",
+		"selector": "a[href$='/categories/']",
 		"text": ["点击就可以看文章的标签啦！", "点击来查看所有标签哦。"]
 	}, {
 		"selector": ".menu-item-categories a",
 		"text": ["文章都分类好啦～", "点击来查看文章分类哦。"]
 	}, {
-		"selector": "a[href^='/archive/']",
+		"selector": "a[href$='/archive/']",
 		"text": ["翻页比较麻烦吗，那就来看看文章归档吧。", "文章目录都整理在这里啦！"]
 	}, {
 		"selector": ".menu-item-friends a",
 		"text": ["这是我的朋友们哦ヾ(◍°∇°◍)ﾉﾞ", "要去大佬们的家看看吗？", "要去拜访一下我的朋友们吗？"]
 	}, {
-		"selector": ".menu-item-search a",
+		"selector": "#search",
 		"text": ["找不到想看的内容？搜索看看吧！", "在找什么东西呢，需要帮忙吗？"]
 	}, {
 		"selector": ".menu-item a",
 		"text": ["快看看这里都有什么呢？"]
 	}, {
-		"selector": ".site-author",
+		"selector": "img[alt='avatar']",
 		"text": ["我家主人好看吗？", "这是我家主人(*´∇｀*)"]
 	}, {
 		"selector": "i.fas.fa-rss",
 		"text": ["这里可以使用 RSS 订阅呢！", "利用 feed 订阅器，就能快速知道博客有没有更新了呢。"]
 	}, {
-		"selector": ".cc-opacity, .post-copyright-author",
+		"selector": "i.fas.fa-adjust",
+		"text": ["这里可以切换深/浅色模式呢！", "喜欢黑色主题还是白色主题呢？"]
+	}, {
+		"selector": "#main-wrapper > div > div.row.flex-grow-1 > main > article > div.post-tail-wrapper.text-muted > div.post-tail-bottom.d-flex.justify-content-between.align-items-center.mt-5.pb-2 > div.license-wrapper",
 		"text": ["要记得规范转载哦。", "所有文章均采用 CC BY-NC-SA 4.0 许可协议～", "转载前要先注意下文章的版权协议呢。"]
 	}, {
 		"selector": "img:not([alt='avatar'])",
 		"text": ["点击图片可以放大呢！"]
 	}, {
-		"selector": ".copy-btn",
+		"selector": "#core-wrapper > div > div.post-content > ol:nth-child(12) > li:nth-child(2) > div > div.code-header > button",
 		"text": ["代码可以直接点击复制哟。"]
 	}, {
 		"selector": "i.fab.fa-github",
 		"text": ["GitHub！我是新手！", "PHP 是最好的语言！"]
 	}, {
 		"selector": "i.fa-brands.fa-x-twitter",
-		"text": ["主人的Twitter账号～"]
+		"text": ["这是主人的Twitter账号～"]
 	}, {
 		"selector": "i.fas.fa-envelope",
 		"text": ["邮件我会及时回复的！", "点击就可以发送邮件啦～"]
@@ -84,13 +87,10 @@
 		"selector": "a[itemprop='discussionUrl']",
 		"text": ["要去看看评论吗？"]
 	}, {
-		"selector": ".beian a",
-		"text": ["我也是有户口的人哦。", "我的主人可是遵纪守法的好主人。"]
-	}, {
 		"selector": ".container a[href^='http'], .nav-link .nav-text",
 		"text": ["要去看看 <span>{text}</span> 么？", "去 <span>{text}</span> 逛逛吧。", "到 <span>{text}</span> 看看吧。"]
 	}, {
-		"selector": ".back-to-top",
+		"selector": "#back-to-top",
 		"text": ["点它就可以回到顶部啦！", "又回到最初的起点～", "要回到开始的地方么？"]
 	}, {
 		"selector": ".reward-container",
@@ -99,18 +99,18 @@
 		"selector": "#needsharebutton-postbottom .btn",
 		"text": ["好东西要让更多人知道才行哦。", "觉得文章有帮助的话，可以分享给更多需要的朋友呢。"]
 	}, {
-		"selector": ".need-share-button_weibo",
-		"text": ["微博？来分享一波喵！"]
+		"selector": "i.fa-fw.fab.fa-telegram",
+		"text": ["分享到不存在的Telegram吧！"]
 	}, {
-		"selector": "a[href^='https://t.me/']",
-		"text": ["分享到Telegram吧！"]
-	}, {
-		"selector": "a[href^='https://twitter.com/']",
+		"selector": "i.fa-fw.fa-brands.fa-square-x-twitter",
 		"text": ["Twitter？好像是不存在的东西？"]
 	}, {
-		"selector": "a[href^='https://www.facebook.com/']",
+		"selector": "i.fa-fw.fab.fa-facebook-square",
 		"text": ["emmm…FB 好像也是不存在的东西？"]
 	}, {
+		"selector": "#copy-link",
+		"text": ["直接复制链接分享也是可以的哦～"]
+	},{
 		"selector": ".post-nav-item a[rel='next']",
 		"text": ["来看看下一篇文章吧。", "点它可以看下一篇文章哦！", "要翻到下一篇文章吗？"]
 	}, {
@@ -123,28 +123,19 @@
 		"selector": ".extend.prev",
 		"text": ["去上一页看看吧。", "点它可以后退哦！", "要翻到上一页吗？"]
 	}, {
-		"selector": "input.vnick",
-		"text": ["该怎么称呼你呢？", "留下你的尊姓大名！"]
-	}, {
-		"selector": ".vmail",
-		"text": ["留下你的邮箱，不然就是无头像人士了！", "记得设置好 Gravatar 头像哦！", "为了方便通知你最新消息，一定要留下邮箱！"]
-	}, {
-		"selector": ".vlink",
-		"text": ["快快告诉我你的家在哪里，好让我去参观参观！"]
-	}, {
-		"selector": ".veditor",
+		"selector": "#__next > main > div > div.gsc-comments > form > div.gsc-comment-box-main > div > textarea",
 		"text": ["想要去评论些什么吗？", "要说点什么吗？", "觉得博客不错？快来留言和主人交流吧！"]
 	}, {
-		"selector": ".vcontrol a",
+		"selector": "#__next > main > div > div.gsc-comments > form > div.gsc-comment-box-main > div > div > a",
 		"text": ["你会不会熟练使用 Markdown 呀？", "使用 Markdown 让评论更美观吧～"]
 	}, {
-		"selector": ".vemoji-btn",
-		"text": ["要插入一个萌萌哒的表情吗？", "要来一发表情吗？"]
+		"selector": "#__next > main > div > div.gsc-reactions > div > details > summary",
+		"text": ["要发一个萌萌哒的表情吗？", "要来一发表情吗？"]
 	}, {
 		"selector": ".vpreview-btn",
 		"text": ["要预览一下你的发言吗？", "快看看你的评论有多少负熵！"]
 	}, {
-		"selector": ".vsubmit",
+		"selector": "#__next > main > div > div.gsc-comments > form > div.gsc-comment-box-bottom > div > button",
 		"text": ["评论没有审核，要对自己的发言负责哦～", "要提交了吗，请耐心等待回复哦～"]
 	}, {
 		"selector": ".vcontent",
