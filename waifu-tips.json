@@ -99,13 +99,13 @@
 		"selector": "#needsharebutton-postbottom .btn",
 		"text": ["好东西要让更多人知道才行哦。", "觉得文章有帮助的话，可以分享给更多需要的朋友呢。"]
 	}, {
-		"selector": "#main-wrapper > div > div.row.flex-grow-1 > main > article > div.post-tail-wrapper.text-muted > div.post-tail-bottom.d-flex.justify-content-between.align-items-center.mt-5.pb-2 > div.share-wrapper.d-flex.align-items-center > span.share-icons > a:nth-child(3) > i",
+		"selector": "#main-wrapper > div > div.row.flex-grow-1 > main > article > div.post-tail-wrapper.text-muted > div.post-tail-bottom.d-flex.justify-content-between.align-items-center.mt-5.pb-2 > div.share-wrapper.d-flex.align-items-center > span.share-icons > a:nth-child(3)",
 		"text": ["分享到不存在的Telegram吧！"]
 	}, {
-		"selector": "#main-wrapper > div > div.row.flex-grow-1 > main > article > div.post-tail-wrapper.text-muted > div.post-tail-bottom.d-flex.justify-content-between.align-items-center.mt-5.pb-2 > div.share-wrapper.d-flex.align-items-center > span.share-icons > a:nth-child(1) > i",
+		"selector": "#main-wrapper > div > div.row.flex-grow-1 > main > article > div.post-tail-wrapper.text-muted > div.post-tail-bottom.d-flex.justify-content-between.align-items-center.mt-5.pb-2 > div.share-wrapper.d-flex.align-items-center > span.share-icons > a:nth-child(1)",
 		"text": ["Twitter？好像是不存在的东西？"]
 	}, {
-		"selector": "#main-wrapper > div > div.row.flex-grow-1 > main > article > div.post-tail-wrapper.text-muted > div.post-tail-bottom.d-flex.justify-content-between.align-items-center.mt-5.pb-2 > div.share-wrapper.d-flex.align-items-center > span.share-icons > a:nth-child(2) > i",
+		"selector": "#main-wrapper > div > div.row.flex-grow-1 > main > article > div.post-tail-wrapper.text-muted > div.post-tail-bottom.d-flex.justify-content-between.align-items-center.mt-5.pb-2 > div.share-wrapper.d-flex.align-items-center > span.share-icons > a:nth-child(2)",
 		"text": ["emmm…FB 好像也是不存在的东西？"]
 	}, {
 		"selector": "#copy-link",
