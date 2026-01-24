@@ -3,9 +3,9 @@
 	"FileReferences": {
 		"Moc": "AnAn - model.moc3",
 		"Textures": [
-			"AnAn - model.4096/texture_00.png",
-			"AnAn - model.4096/texture_01.png",
-			"AnAn - model.4096/texture_02.png"
+			"AnAn - model.4096/texture_00.webp",
+			"AnAn - model.4096/texture_01.webp",
+			"AnAn - model.4096/texture_02.webp"
 		],
 		"Physics": "AnAn - model.physics3.json",
 		"DisplayInfo": "AnAn - model.cdi3.json"
